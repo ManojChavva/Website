@@ -1,0 +1,62 @@
+
+
+<html>
+
+<head>
+<title> Person Of interest</title>
+	<style>
+	
+	body {
+  font-family: 'Courier New', monospace;
+}
+	
+</style>
+</head>
+<body>
+<div style="margin-left: 80;margin-top: 20;margin-right: 150">
+<h2 style="border-bottom: 1px solid #E1E1E1; padding:5px;"> PERSON OF INTEREST <h2>
+
+<h4> First Name </h4>
+<input  type = "text" size="140" ">
+<br>
+<br>
+<br>
+<hr>
+<h4> Name </h4>
+<input  type = "text" size="140">
+<br>
+<br>
+<br>
+<hr>
+<h4> Description </h4>
+<input  type = "text" size="140" style="height: 200px";>
+<br>
+<br>
+<br>
+<hr>
+<h4> Skills </h4>
+<input type="checkbox"> Team Work</input><br>
+  <input type="checkbox"> Communication</input><br>
+  <input type="checkbox"> Marketing</input><br>
+  <input type="checkbox"> Programming</input><br>
+<br>
+<br>
+<hr>
+<h4> Work Feautures </h4>
+<input type="checkbox"> Demonstartion</input><br>
+  <input type="checkbox"> Writing</input><br>
+  <input type="checkbox"> Administration</input><br>
+    <input type="checkbox"> support</input>
+	<br>
+	<hr>
+<br>
+<br>
+  <input style="background-color:green" type="submit" value="Submit">
+<br>
+<br>
+<br>
+<br>
+</div>
+</body>
+
+</html>
