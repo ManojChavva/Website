@@ -1,0 +1,220 @@
+
+<html>
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title> web Page </title>
+	<style>
+	html, body {
+	width:100%;
+	padding:0;
+	margin:0;
+}
+body {
+background-color: #999999;
+
+}
+	header {
+    background: #02dea47a;
+	height: 150px;
+}
+	nav {
+	margin-top:-25px;
+}
+	
+	nav .wrap-nav{
+	height: 37px;
+	background: #333333;
+}
+
+.menu  ul li {
+position: relative;
+float: left;
+padding: 6px 5px 0px 5px;
+}
+.menu  ul li:hover {
+background: #DA251D;
+}
+.menu  ul li a {
+font-size: 14px;
+ line-height:14px;color:#ffffff;
+ display: block;
+ padding: 6px 10px;
+ margin-bottom: 5px;
+ z-index: 6;
+ position: relative; 
+ 
+ }
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  margin: 25px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#content .wrap-content{background: #ffffff;}
+.zerogrid {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+
+}
+
+.footer{
+text-align:center;
+background:black; 
+padding:2px 0px;
+color:#ffffff; 
+margin-top: 20px;
+}
+
+.column1 {
+  float: left;
+  padding: 10px;
+ margin: 4px
+}
+
+.left {
+  width:60%;
+}
+
+.right {
+  width:30%;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<header>
+	<div class="toplogo">
+		<div id="logo"><img src="https://www.karomi.com/assets/images/logo.png" width = "140" height= "80" style="margin-top: 40; margin-left: 80;"/></div>
+		 <div style="margin-left: 800px;margin-top: -40px;">
+  <button><i class="fa fa-search"></i></button>
+  <input placeholder="Search...">
+  
+		</div>
+		
+ 
+   </header>
+
+<nav>
+	<div class="wrap-nav">
+		<div class="menu" style="margin-left: 80;">
+			<ul style="list-style: none;">
+				<li><a href="testkaromi.html">HOME</a></li>
+				<li><a>BLOG</a></li>
+				<li><a>GALLERY</a></li>
+				<li><a>ABOUT</a></li>
+				<li><a>CONTACt</a></li>
+			</ul>
+		</div>
+		</div>
+</nav>
+
+<div class="row" style="margin-left: 90;">
+  <div class="column">
+    <img src="https://www.karomi.com/assets/images/icon-1.png" width = "180" height= "200">
+  </div>
+  <div class="column">
+    <img src="https://www.karomi.com/assets/images/icon-2.png" width = "180" height= "200">
+  </div>
+  <div class="column">
+    <img src="https://www.manageartworks.com/wp-content/uploads/2020/04/ecom.png" width = "180" height= "200">
+  </div>
+</div>
+
+
+
+
+<section id="content"  >
+
+	<div class="wrap-content zerogrid " >
+		<div style="margin-left: 88;">
+			<div class="row1">
+			<div class="column1 left" >
+					<article>
+						
+							<br><h2>Artwork Lifecycle</h2>
+							<p>Here's how you'll get to markets faster; Avoid expensive mistakes & Ensure Compliance<p>
+						
+						
+							<img src="https://manageartworks.com/wp-content/uploads/2017/09/highres-ma.png" width = "400" height = "180"/>
+							<p>While the drug is in the market, it goes through numerous changes driven by regulatory or brand needs. Our Artwork Review process and tools help you adapt to frequent label changes arising from regular updates in regulations</p>
+							<p>While the drug is in the market, it goes through numerous changes driven by regulatory or brand needs. Our Artwork Review process and tools help you adapt to frequent label changes arising from regular updates in regulations</p>
+							<p align="right"><button>Read more</button></p>
+						
+					</article>
+					<article>
+						
+							<h2>Packaging Parts and Components</h2>
+							<p> Here's how you'll get to markets faster; Avoid expensive mistakes & Ensure Compliance</p>
+						
+							<img src="https://manageartworks.com/wp-content/uploads/2017/09/highres-ma.png" width = "400" height = "180"/>
+							<p>Changes in pack inserts or medication guides affect multiple SKUs. Our system not only manages these dependencies for your artworks but can also generate alerts if there is a change that affects multiple SKUs</p>
+							</p>Typical workflows implemented in our system include regulatory submissions, approving artwork, print & packaging specifications, etc.
+Our platform gives you access to automatic audit logs, task assignment, alerts and reminders, real-time status and more.</p>
+							
+							<p align="right"><button>Read more</button></p>
+						
+				
+					</article>
+					
+					</div>
+					<div class="column1 right"  >
+
+	<h2 style="border-bottom: 1px solid #E1E1E1; padding:5px;">About us</h2>
+						
+			<img src="https://www.karomi.com/assets/images/logo.png" width = "120" height= "70"/></img>
+		<p> Karomi offers a cloud-based packaging and artwork lifecycle management system for Pharmaceuticals and Consumer Packaged Goods(CPG) companies. Our platform introduces efficiencies in every step of your artwork's journey - starting from collating content, designing the artwork, having it reviewed and approved by your internal and external stakeholders, and finally releasing it to your markets</p>
+							
+						
+	<h2 style="border-bottom: 1px solid #E1E1E1; padding:5px;">Solutions</h2>
+						
+			<ul>
+		<li>Pharmaceuticals</li>
+		<li>Consumer Packaged Goods</li>
+		<li>Pharmaceuticals</li>
+		
+			</ul>
+						
+					
+			<h2 style="border-bottom: 1px solid #E1E1E1; padding:5px;" >Get in touch</h2>
+				<h4>Karomi</h4>
+					<p>Karomi Technology Pvt. Ltd., an ISO 9001:2015, ISO/IEC 27001:2013 and ISO/IEC 27017:2015 certified company, offers ManageArtworks - a cloud-based packaging and artwork lifecycle management system for Pharmaceutical and CPG companies</p>
+							
+							
+				
+	</div>
+	</div>
+	
+	</div>
+	
+	
+</section>
+
+<footer>
+	
+		<div class="footer">
+			<p>9th Floor, VBC Solitaire Building, 47 & 49 Bazullah Road, T. Nagar, Chennai, TN 600017</p>
+		</div>
+	
+</footer>
+
+</body>
+</html>
