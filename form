@@ -20,7 +20,30 @@
     background: #02dea47a;
 	height: 150px;
 }
-	
+	nav .wrap-nav{
+	height: 37px;
+	background: #333333;
+	margin-top: -25px;
+}
+
+.menu  ul li {
+position: relative;
+float: left;
+padding: 6px 5px 0px 5px;
+}
+.menu  ul li:hover {
+background: #DA251D;
+}
+.menu  ul li a {
+font-size: 14px;
+ line-height:14px;color:#ffffff;
+ display: block;
+ padding: 6px 10px;
+ margin-bottom: 5px;
+ z-index: 6;
+ position: relative; 
+ 
+ }
 
 .column {
   float: left;
@@ -72,18 +95,6 @@ margin-top: 20px;
   display: table;
   clear: both;
 }
-
-#main {
-  width: 200px;
-   gap: 25px;
- background-color: #333333;
-    color: #ffffff;
-    color: white;
-   display: flex;
-    letter-spacing: 2px;
-    padding: 20px 5px;
-    width: 100%;
-    } 
 </style>
 </head>
 <body>
@@ -100,18 +111,19 @@ margin-top: 20px;
  
    </header>
 
-
-
-<div id="main">
- <a href="Assignment.html"> <div style="color:white;">HOME</div></a>
-  <div>BLOG</div>
-  <div>GALLERY</div>
-   <div>ABOUT</div>
-  <div>CONTACT</div>
- 
-
-
-</div>
+<nav>
+	<div class="wrap-nav">
+		<div class="menu" style="margin-left: 120;">
+			<ul style="list-style: none;">
+				<li><a href="Assignment.html">HOME</a></li>
+				<li><a>BLOG</a></li>
+				<li><a>GALLERY</a></li>
+				<li><a>ABOUT</a></li>
+				<li><a>CONTACT</a></li>
+			</ul>
+		</div>
+		</div>
+</nav>
 
 <div class="row" style="margin-left: 170;">
   <div class="column">
@@ -203,14 +215,3 @@ Our platform gives you access to automatic audit logs, task assignment, alerts a
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
